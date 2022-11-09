@@ -1,0 +1,36 @@
+// API 1
+GET http://localhost:3000/players/
+
+####
+
+//API2
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+  "playerName": "DB",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
+
+####
+
+//API3
+GET http://localhost:3000/players/1/
+####
+
+
+//API4
+PUT http://localhost:3000/players/1/
+Content-Type: application/json
+
+{
+  "playerName": "DB",
+  "jerseyNumber": 54,
+  "role": "All-rounder"
+}
+####
+
+
+//API 5
+DELETE http://localhost:3000/players/15/
